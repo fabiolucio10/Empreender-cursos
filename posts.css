@@ -1,5 +1,6 @@
 @import url(https://fonts.google.com/specimen/Ubuntu);
 
+
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +8,19 @@
     padding: 0;
     text-decoration: none;
 }
-
 body {
     font-size: 100%;
 
 }
+
+.section-flex {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 10%;
+
+}
+
 
 .cabeçalho {
     display: flex;
@@ -29,18 +38,6 @@ body {
     gap: 32px;
 }
 
-.texto-dindin {
-    display: flex;
-
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 56px;
-    line-height: 64px;
-    color: #FFFFFF;
-    display: flex;
-}
-
 .texto-nav {
     font-family: 'Ubuntu';
     color: #FDFDFD;
@@ -52,54 +49,88 @@ body {
 
 
 
-.conteudo-principal {
+.section-post{
     display: flex;
-    flex-direction: row;
+   flex-direction: column;
+}
+
+
+
+.section-post{
+    display: flex;
+}
+
+
+
+.sectio-titulo-flex{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.section-titulo{
+
+    gap: 10%;
+    margin-top: 10px;
+    padding: 30px;
+    }
+
+
+.section-titulo-titulo p{
+    display: flex;
+    justify-content: center;
+  
+}
+.section-post h1{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 57px;
+display: flex;
+align-items: center;
+
+color: #FF4081;
+}
+
+.section-post p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 60px;
-    flex-wrap: wrap;
+    
+    color: #9D9D9D;
+    
 }
 
-.conteudo-principal-escrito {
+.section-titulo-imagem{
     display: flex;
+    justify-content:center;
+    
+}
+.section-titulo-imagem img{
+    width: 70%;
+    height: 50%;
+   
+}
+
+
+.section-post-subtitulo{
+    display: flex;
+    justify-content:center;
     flex-direction: column;
-    gap: 32px;
-}
-
-.conteudo-principal-escrito-titulo {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 69px;
-
-    color: #FF4081;
+    padding: 10%;
+   
 
 }
 
-.conteudo-principal-escrito-subtitulo {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 31px;
 
-    color: #555555;
-}
-
-.conteudo-principal-button {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 31px;
-
-    color: #FF4081;
-    border: 2px solid #FF4081;
-    border-radius: 62px;
-    box-sizing: border-box;
-}
 
 
 .section-2 {
@@ -179,133 +210,7 @@ body {
 }
 
 
-.todas-dindin-section h1{
-    margin: 30px;
-    font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 37px;
-line-height: 50px;
 
-color: #009688;
-
-}
-.todas-dindin-section{
-    display: flex;
-    width: 100%;
-
-    flex-direction: column;
-    
-}
-
-
-
-.todas-dindin-flex{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 10px;
-   
-    
-    
-
-}
-
-.div-dindin{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-
-   width: 35%;
-   
-   
-}
-
-
-.section4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center center;
-    gap: 40px;
-    padding-top: 50px;
-    flex-wrap: wrap;
-    background: #adaaaa;
-    
-   
-    
-}
-
-
-.section4 img {
-    width: 100%;
-    height: 200px;
-
-}
-
-
-.section4-flex {
-    display: flex;
-    gap: 40px;
-    padding: 40px;
-    
-
-
-}
-
-.div-button-section4 {
-    display: flex;
-    justify-content: center;
-     background: #adaaaa;
-    
-   
-}
-
-.button-section4{
-    border: 2px solid #FF4081;
-    border-radius: 32px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 32px;
-    padding: 15px;
-
-    color: #FF4081;
-}
-
-.section4 h2 {
-    display: flex;
-    padding: 2%;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 37px;
-    line-height: 43px;
-    color: #009688;
-}
-
-.texto2-section4 {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 31px;
-
-    color: #009688;
-
-}
-
-.texto3-section4 {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 31px;
-    color: #000000;
-
-}
 
 
 
@@ -362,4 +267,36 @@ Font-Style:none;
 .lista-footer a{
     font-style: none;
     color: #FFFFFF;
+}
+
+
+@media (max-width: 868px) {
+
+
+    .section-flex {
+        flex-direction: column;
+
+    }
+
+    .imagem img{
+        width: 300px;
+    }
+
+    .img-videos {
+        width: 300px;
+    }
+
+    .section-videos-flex {
+        flex-direction: column;
+        
+    }
+
+    .cabeçalho-nav {
+        flex-direction: column;
+        
+
+    }
+
+   
+    
 }
